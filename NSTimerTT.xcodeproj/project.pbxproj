@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFDA9C561B4E4F8700BF04AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA9C551B4E4F8700BF04AB /* main.m */; };
+		CFDA9C591B4E4F8700BF04AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA9C581B4E4F8700BF04AB /* AppDelegate.m */; };
+		CFDA9C5C1B4E4F8700BF04AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA9C5B1B4E4F8700BF04AB /* ViewController.m */; };
+		CFDA9C5F1B4E4F8700BF04AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDA9C5D1B4E4F8700BF04AB /* Main.storyboard */; };
+		CFDA9C611B4E4F8700BF04AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDA9C601B4E4F8700BF04AB /* Images.xcassets */; };
+		CFDA9C641B4E4F8700BF04AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDA9C621B4E4F8700BF04AB /* LaunchScreen.xib */; };
+		CFDA9C701B4E4F8700BF04AB /* NSTimerTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA9C6F1B4E4F8700BF04AB /* NSTimerTTTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFDA9C6A1B4E4F8700BF04AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDA9C481B4E4F8700BF04AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDA9C4F1B4E4F8700BF04AB;
+			remoteInfo = NSTimerTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFDA9C501B4E4F8700BF04AB /* NSTimerTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTimerTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA9C541B4E4F8700BF04AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA9C551B4E4F8700BF04AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFDA9C571B4E4F8700BF04AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFDA9C581B4E4F8700BF04AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFDA9C5A1B4E4F8700BF04AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFDA9C5B1B4E4F8700BF04AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFDA9C5E1B4E4F8700BF04AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFDA9C601B4E4F8700BF04AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFDA9C631B4E4F8700BF04AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFDA9C691B4E4F8700BF04AB /* NSTimerTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimerTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDA9C6E1B4E4F8700BF04AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA9C6F1B4E4F8700BF04AB /* NSTimerTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerTTTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDA9C4D1B4E4F8700BF04AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA9C661B4E4F8700BF04AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFDA9C471B4E4F8700BF04AB = {
+			isa = PBXGroup;
+			children = (
+				CFDA9C521B4E4F8700BF04AB /* NSTimerTT */,
+				CFDA9C6C1B4E4F8700BF04AB /* NSTimerTTTests */,
+				CFDA9C511B4E4F8700BF04AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDA9C511B4E4F8700BF04AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA9C501B4E4F8700BF04AB /* NSTimerTT.app */,
+				CFDA9C691B4E4F8700BF04AB /* NSTimerTTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFDA9C521B4E4F8700BF04AB /* NSTimerTT */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA9C571B4E4F8700BF04AB /* AppDelegate.h */,
+				CFDA9C581B4E4F8700BF04AB /* AppDelegate.m */,
+				CFDA9C5A1B4E4F8700BF04AB /* ViewController.h */,
+				CFDA9C5B1B4E4F8700BF04AB /* ViewController.m */,
+				CFDA9C5D1B4E4F8700BF04AB /* Main.storyboard */,
+				CFDA9C601B4E4F8700BF04AB /* Images.xcassets */,
+				CFDA9C621B4E4F8700BF04AB /* LaunchScreen.xib */,
+				CFDA9C531B4E4F8700BF04AB /* Supporting Files */,
+			);
+			path = NSTimerTT;
+			sourceTree = "<group>";
+		};
+		CFDA9C531B4E4F8700BF04AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA9C541B4E4F8700BF04AB /* Info.plist */,
+				CFDA9C551B4E4F8700BF04AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDA9C6C1B4E4F8700BF04AB /* NSTimerTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA9C6F1B4E4F8700BF04AB /* NSTimerTTTests.m */,
+				CFDA9C6D1B4E4F8700BF04AB /* Supporting Files */,
+			);
+			path = NSTimerTTTests;
+			sourceTree = "<group>";
+		};
+		CFDA9C6D1B4E4F8700BF04AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA9C6E1B4E4F8700BF04AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFDA9C4F1B4E4F8700BF04AB /* NSTimerTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA9C731B4E4F8700BF04AB /* Build configuration list for PBXNativeTarget "NSTimerTT" */;
+			buildPhases = (
+				CFDA9C4C1B4E4F8700BF04AB /* Sources */,
+				CFDA9C4D1B4E4F8700BF04AB /* Frameworks */,
+				CFDA9C4E1B4E4F8700BF04AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTimerTT;
+			productName = NSTimerTT;
+			productReference = CFDA9C501B4E4F8700BF04AB /* NSTimerTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFDA9C681B4E4F8700BF04AB /* NSTimerTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDA9C761B4E4F8700BF04AB /* Build configuration list for PBXNativeTarget "NSTimerTTTests" */;
+			buildPhases = (
+				CFDA9C651B4E4F8700BF04AB /* Sources */,
+				CFDA9C661B4E4F8700BF04AB /* Frameworks */,
+				CFDA9C671B4E4F8700BF04AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDA9C6B1B4E4F8700BF04AB /* PBXTargetDependency */,
+			);
+			name = NSTimerTTTests;
+			productName = NSTimerTTTests;
+			productReference = CFDA9C691B4E4F8700BF04AB /* NSTimerTTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFDA9C481B4E4F8700BF04AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = shejun.zhou;
+				TargetAttributes = {
+					CFDA9C4F1B4E4F8700BF04AB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CFDA9C681B4E4F8700BF04AB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CFDA9C4F1B4E4F8700BF04AB;
+					};
+				};
+			};
+			buildConfigurationList = CFDA9C4B1B4E4F8700BF04AB /* Build configuration list for PBXProject "NSTimerTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFDA9C471B4E4F8700BF04AB;
+			productRefGroup = CFDA9C511B4E4F8700BF04AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFDA9C4F1B4E4F8700BF04AB /* NSTimerTT */,
+				CFDA9C681B4E4F8700BF04AB /* NSTimerTTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFDA9C4E1B4E4F8700BF04AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA9C5F1B4E4F8700BF04AB /* Main.storyboard in Resources */,
+				CFDA9C641B4E4F8700BF04AB /* LaunchScreen.xib in Resources */,
+				CFDA9C611B4E4F8700BF04AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA9C671B4E4F8700BF04AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFDA9C4C1B4E4F8700BF04AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA9C5C1B4E4F8700BF04AB /* ViewController.m in Sources */,
+				CFDA9C591B4E4F8700BF04AB /* AppDelegate.m in Sources */,
+				CFDA9C561B4E4F8700BF04AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDA9C651B4E4F8700BF04AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDA9C701B4E4F8700BF04AB /* NSTimerTTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFDA9C6B1B4E4F8700BF04AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDA9C4F1B4E4F8700BF04AB /* NSTimerTT */;
+			targetProxy = CFDA9C6A1B4E4F8700BF04AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFDA9C5D1B4E4F8700BF04AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDA9C5E1B4E4F8700BF04AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFDA9C621B4E4F8700BF04AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDA9C631B4E4F8700BF04AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFDA9C711B4E4F8700BF04AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFDA9C721B4E4F8700BF04AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFDA9C741B4E4F8700BF04AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSTimerTT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFDA9C751B4E4F8700BF04AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSTimerTT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFDA9C771B4E4F8700BF04AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSTimerTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTimerTT.app/NSTimerTT";
+			};
+			name = Debug;
+		};
+		CFDA9C781B4E4F8700BF04AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSTimerTTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTimerTT.app/NSTimerTT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFDA9C4B1B4E4F8700BF04AB /* Build configuration list for PBXProject "NSTimerTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA9C711B4E4F8700BF04AB /* Debug */,
+				CFDA9C721B4E4F8700BF04AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDA9C731B4E4F8700BF04AB /* Build configuration list for PBXNativeTarget "NSTimerTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA9C741B4E4F8700BF04AB /* Debug */,
+				CFDA9C751B4E4F8700BF04AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFDA9C761B4E4F8700BF04AB /* Build configuration list for PBXNativeTarget "NSTimerTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA9C771B4E4F8700BF04AB /* Debug */,
+				CFDA9C781B4E4F8700BF04AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFDA9C481B4E4F8700BF04AB /* Project object */;
+}
