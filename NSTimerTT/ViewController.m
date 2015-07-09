@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 
-NSString *str = @"已运行：";
-
 @interface ViewController ()
 
 @property (nonatomic, strong) NSTimer *myTimer;
@@ -22,7 +20,7 @@ NSString *str = @"已运行：";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.labTime.text = [NSString stringWithFormat:@"%@0 s", str];
+    self.labTime.text = @"开始运行";
     _myTimer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(loopPrintInfo:) userInfo:nil repeats:YES];
 }
 
@@ -33,8 +31,8 @@ NSString *str = @"已运行：";
 
 - (void)loopPrintInfo:(id)info {
     static NSInteger n = 0;
-    NSLog(@"%ld", ++n);
-    self.labTime.text = [NSString stringWithFormat:@"%@ %ld s", str, n];
+    self.labTime.text = [NSString stringWithFormat:@"已运行:%ld s", ++n];
+    NSLog(@"%ld", n);
 }
 
 @end
